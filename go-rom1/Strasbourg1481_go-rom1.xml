@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ad Romanos [Strasbourg 1481 Transcription]</title>
+        <author></author>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ad Romanos [Strasbourg 1481 Transcription]</title>
+          <date when="2018-05-01">May 05, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="S" n="Strasbourg1481">Strasbourg 1481</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-05-01" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <div xml:id="starts-on">
+        
+      </div>
+    </front>
+    <!-- gloss ordinaria https://archive.thulb.uni-jena.de/ufb/rsc/viewer/ufb_derivate_00000066/Mon-typ-2-00011_279.tif --> 
+    <!-- Romans 1 -->
+    <body>
+      <div xml:id="go-rom1">
+        <head>Ad Romanos 1</head>
+        <div>
+          <head>Versa 1</head>
+          <p>
+            <quote ana="#rom1_1" source="http://scta.info/resource/bible-rom1_1=>1">paulus</quote>
+            hebraice quietus graece modicus latine
+          </p>
+          <p>
+            <quote ana="#rom1_1">servus</quote>
+            nomen humilitatis ut ad eam provocet
+          </p>
+          <p>
+            <quote ana="#rom1_1">ihesu</quote>
+            salvatoris cui merito omnes servi cui ser<lb ed="#S"/>vire regnare 
+          </p>
+          <p>
+            <quote ana="#rom1_1">christi</quote>
+            regis et sacerdotis
+          </p>
+          <p>
+            <quote ana="#rom1_1">vocatus</quote>
+            aeterna electione et temporali missione
+          </p>
+          <p>
+            <quote ana="#rom1_1">apostolus</quote>
+            missus legatus vel nuncius
+          </p>
+          <p>
+            <quote ana="#rom1_1">segregatus in</quote>
+            ab utero sinagoge in qua quasi mortuus fuit
+          </p>
+          <p>
+            <quote ana="#rom1_1">evangelium dei</quote>
+            praedicandum ecce officium 
+          </p>
+        </div>
+        <div>
+          <head>Versa 2</head>
+          <p>
+            <quote ana="#rom1_2">quod</quote>
+            commendatio evangelii a quattuor
+          </p>
+          <p>
+            <quote ana="#rom1_2">ante</quote>
+            completionem
+          </p>
+          <p>
+            <quote ana="#rom1_2">promiserat per</quote>
+            deus pater 
+            gratis 
+            ut rem utilem et necessariam
+          </p>
+          <p>
+            <quote ana="#rom1_2">prophetas suos in</quote>
+            qui ex deo non ex se magni
+            a tempore 
+            ab autore 
+            a testibus <unclear>co.</unclear>
+          </p>
+          <p>
+            <quote ana="#rom1_2">scripturis sanctis</quote>
+            non modo verbis 
+            ne daretur oblivioni 
+          </p>
+        </div>
+        <div>
+          <head>Versa 3</head>
+          <p>
+            <quote ana="#rom1_3">de</quote>
+            factis
+          </p>
+          <p>
+            <quote ana="#rom1_3">filio</quote>
+            quia omnes ad filium ducunt
+          </p>
+          <p>
+            <quote ana="#rom1_3">suo qui factus est</quote>
+            proprio commendatio evangelii a materia 
+          </p>
+          <p>
+            <quote ana="#rom1_3">ei</quote>
+            ad honorem eius
+          </p>
+          <p>
+            <quote ana="#rom1_3">ex semine david</quote>
+            commendatio autoris a quattuor primo ab origine
+          </p>
+          <p>
+            <quote ana="#rom1_3">secundum</quote>
+            factus ne putetur homo tantum et non secundum divinitatem
+          </p>
+          <p>
+            <quote ana="#rom1_3">carnem</quote>
+            quia <quote ana="#io1_14">verbum caro factum</quote> etc
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

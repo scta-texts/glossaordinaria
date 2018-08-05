@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ad Romanos 2 [Strasbourg 1481 Transcription]</title>
+        <author></author>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ad Romanos 2 [Strasbourg 1481 Transcription]</title>
+          <date when="2018-05-01">May 05, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="S" n="Strasbourg1481">Strasbourg 1481</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-05-01" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <div xml:id="starts-on">
+        
+      </div>
+    </front>
+    <!-- gloss ordinaria https://archive.thulb.uni-jena.de/ufb/rsc/viewer/ufb_derivate_00000066/Mon-typ-2-00011_279.tif --> 
+    <!-- Romans 1 -->
+    <body>
+      <div xml:id="go-rom2">
+        <head>Ad Romanos 2</head>
+        <div>
+          <head>Versa 1</head>
+          <p>
+            <quote>Propter quod inexcusabilis es o homo</quote>
+            quia omnis faciens et consentiens dignus est morte
+          </p>
+          <p>
+            <quote>omnis qui iudicas. In quo enim iudicas alterum: te ipsum condemnas. Eadem enim agis quae iudicas.</quote>
+            tam iudeus quam gentilis
+          </p>
+        </div>
+        <div>
+          <head>Versa 2</head>
+          <p>
+            <quote>Scimus enim quoniam iudicium dei est secundum</quote>
+            Quasi. vos ita opinamini nos autem scimus 
+            vel vere inexcusabilis es
+            vel autem
+          </p>
+          <p>
+            <quote>veritatem</quote>
+            aequitatem rei non personas
+          </p>
+          <p>
+            <quote>in</quote>
+            contra
+          </p>
+          <p>
+            <quote>eos qui talia agunt.</quote>
+            sive iudeos sive gentiles
+          </p>
+        </div>
+        <div>
+        <head>Versa 3</head>
+          <p>
+            <quote>Existimas autem o homo omnis qui</quote>
+          </p>
+          <p>
+            <quote>iudicas eos qui</quote>
+          </p>
+          <p>
+            <quote>talia agunt et facis ea quia tu effugies iudicium dei</quote>
+          </p>
+        </div>
+        <div>
+          <head>Versa 4</head>
+          <p>
+            <quote>an</quote>
+          </p>
+          <p>
+            <quote>divitias bonitatis eius et</quote>
+          </p>
+          <p>
+            <quote>patientiae et</quote>
+          </p>
+          <p>
+            <quote>longanimitatis contemnis.</quote>
+          </p>
+          <p>
+            <quote>Ignoras quoniam 
+            benignitas dei te</quote>
+          </p>
+          <p>
+            <quote>adducit ad</quote>
+          </p>
+          <p>
+            <quote>patientiam</quote>
+          </p>
+        </div>
+        <div>
+          <head>Versa 5, 6, 7</head>
+          <p>
+            <quote>Secundum duritiam 
+            autem tuam et cor impenitens thesaurizas tibi</quote>
+            sed quia tu durus et in malo tuo pertinax: de quo nec corde penites
+          </p>
+          <p>
+            <quote>iram</quote>
+            exercendam
+          </p>
+          <p>
+            <quote>in die ire et 
+            revelationis iusti iudicii dei qui 
+            reddet unicuique secundum opera eius. His quidem qui secundum</quote>
+            quando omnia aperta et quando 
+            revelabitur quod a nobis modo nescitur
+            <pc type="#pilcrow"/>iusti
+            <pc type="#pilcrow"/>vel sua
+            
+          </p>
+          <p>
+            <quote>patientiam boni</quote>
+          </p>
+          <p>
+            <quote>operis</quote>
+          </p>
+          <p>
+            <quote>gloriam et</quote>
+          </p>
+          <p>
+            <quote>honorem et</quote>
+          </p>
+          <p>
+            <quote>incorruptionem</quote>
+          </p>
+          <p>
+            <quote>quaerentibus vitam aeternam</quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

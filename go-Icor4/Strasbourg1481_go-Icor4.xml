@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I Corinthios 4 [Strasbourg 1481 Transcription]</title>
+        <author/>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>I Corinthios 4 [Strasbourg 1481 Transcription]</title>
+          <date when="2018-05-02">May 02, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="S" n="Strasbourg1481">Strasbourg 1481</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-05-02" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <div xml:id="starts-on">
+        
+      </div>
+    </front>
+    <!-- https://archive.thulb.uni-jena.de/ufb/rsc/viewer/ufb_derivate_00000066/Mon-typ-2-00011_284.tif -->
+    <body>
+      <div xml:id="go-Icor4">
+        <head xml:id="go-Icor4-Hd1e91">I Corinthios 4 [Strasbourg 1481 Transcription]</head>
+        <div xml:id="go-Icor4-Dd1e94">
+          <head xml:id="go-Icor4-Hd1e96">Versa 1 et 2</head>
+          <p xml:id="go-Icor4-d1e99">
+            <quote xml:id="go-Icor4-Qd1e101" type="lemma" ana="#Icor4_1 #Icor4_2">Sic nos existimet homo ut ministros christi: et dispensatores ministeriorum dei hic iam quaeritur inter</quote>
+            <pc type="#pilcrow"/>et cum hoc sit nec nimis nec minus de nobis arbitremini
+            <pc type="#pilcrow"/>non dominos <pc type="#pilcrow"/>quod non pseudo
+            <pc type="#pilcrow"/>secundum modum eiusque mysteria vel ministeria 
+            dividimus <pc type="#pilcrow"/>vel myste
+          </p>
+          <p xml:id="go-Icor4-d1e116">
+            <quote xml:id="go-Icor4-Qd1e118" type="lemma" ana="#Icor4_2">dispensatores: ut fidelis quis inveniatur.</quote>
+            qui scilicet <pc type="#pilcrow"/>ordo quis inter dispensatores invenitur 
+            ut fidelis cui possit credi ut bene dispenset
+          </p>
+        </div>
+        <div xml:id="go-Icor4-Dd1e125">
+          <head xml:id="go-Icor4-Hd1e127">Versa 3</head>
+          <p xml:id="go-Icor4-d1e130">
+            <quote xml:id="go-Icor4-Qd1e132" type="lemma" ana="#Icor4_3">Mihi autem pro minimo est</quote>
+            Quasi hic inter nos quaeritur quod non esset quaerendum 
+            sed quidquid alii faciant
+          </p>
+          <p xml:id="go-Icor4-d1e136">
+            <quote xml:id="go-Icor4-Qd1e138" type="lemma" ana="#Icor4_3">ut a vobis iudicer: aut ab humano</quote>
+            quasi infidelis dispensator
+          </p>
+          <p xml:id="go-Icor4-d1e142">
+            <quote xml:id="go-Icor4-Qd1e144" type="lemma" ana="#Icor4_3">die. Sed neque</quote>
+            qui melius novi me quam vos et ita periculum est vobis 
+            de ignotis iudicare
+          </p>
+        </div>
+        <div xml:id="go-Icor4-Dd1e149">
+          <head xml:id="go-Icor4-Hd1e151">Versa 4</head>
+          <p xml:id="go-Icor4-d1e154">
+            <quote xml:id="go-Icor4-Qd1e156" type="lemma" ana="#Icor4_4">Nihil enim mihi conscius sum:</quote>
+            in nullo me remordet conscientia.
+          </p>
+          <p xml:id="go-Icor4-d1e160">
+            <quote xml:id="go-Icor4-Qd1e162" type="lemma" ana="#Icor4_4">sed non in hoc iustificatus sum.</quote>
+            id est non ideo me iustum puto quia potest esse quod nescio 
+            delicta enim quis intelligit
+          </p>
+          <p xml:id="go-Icor4-d1e166" >
+            <quote xml:id="go-Icor4-Qd1e168" type="lemma" ana="#Icor4_2">Qui autem</quote>
+            neque ego neque vos sed <pc type="#pilcrow"/>melius novi me quam illi 
+            sed melius deus quam ego
+          </p>
+          <p xml:id="go-Icor4-d1e174">
+            <quote xml:id="go-Icor4-Qd1e176" type="lemma" ana="#Icor4_4">iudicat me</quote>
+            id est qui potest et debet me iudicare
+          </p>
+          <p xml:id="go-Icor4-d1e181">
+            <quote xml:id="go-Icor4-Qd1e183"  type="lemma" ana="#Icor4_4">dominus est</quote>
+            qui novit omnia
+          </p>
+        </div>
+        <div xml:id="go-Icor4-Dd1e188">
+          <head xml:id="go-Icor4-Hd1e190">Versa 5</head>
+          <p xml:id="go-Icor4-d1e193">
+            <quote xml:id="go-Icor4-Qd1e195" type="lemma" ana="#Icor4_5">Itaque nolite ante tempus iudicare: quoadusque</quote>
+            et quia dominus est <pc type="#pilcrow"/>iudicii <pc type="#pilcrow"/>scilicet 
+          </p>
+          <p xml:id="go-Icor4-d1e203">
+            <quote xml:id="go-Icor4-Qd1e205" type="lemma" ana="#Icor4_5">veniat dominus: qui et</quote>
+            iudicare
+          </p>
+          <p xml:id="go-Icor4-d1e209">
+            <quote xml:id="go-Icor4-Qd1e211" type="lemma" ana="#Icor4_5">illuminabit abscondita</quote>
+            et quia tunc omnia nota omnibus poterunt de se iudicare et de aliis
+          </p>
+          <p xml:id="go-Icor4-d1e215">
+            <quote xml:id="go-Icor4-Qd1e217" type="lemma" ana="#Icor4_5">tenebrarum et manifestabit consilia cordium: et tunc laus erit</quote>
+            gesta et cogitata tunc erunt aperta 
+            <pc type="#pilcrow"/>etiam bonas cogitationes 
+            <pc type="#pilcrow"/>remuneratio 
+          </p>
+          <p xml:id="go-Icor4-d1e226">
+            <quote xml:id="go-Icor4-Qd1e228" type="lemma" ana="#Icor4_5">unicuique a deo</quote>
+            pro modo suo
+          </p>
+        </div>
+        <div xml:id="go-Icor4-Dd1e234">
+          <head xml:id="go-Icor4-Hd1e236">Versa 6</head>
+          <p xml:id="go-Icor4-d1e239">
+            <quote xml:id="go-Icor4-Qd1e241" type="lemma" ana="#Icor4_6">Haec autem fratres transfiguravi in me et</quote>
+            dixi non gloriandum in nobis 
+            <pc type="#pilcrow"/>cum in nobis non gloriaremini
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
