@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ad Romanos 6 [Strasbourg 1481 Transcription]</title>
+        <author/>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ad Romanos 6 [Strasbourg 1481 Transcription]</title>
+          <date when="2020-11-13">November 11, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="S" n="Strasbourg1481">Strasbourg 1481</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-11-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <div xml:id="starts-on">
+        
+      </div>
+    </front>
+    <body>
+      <div xml:id="go-rom6">
+        <head xml:id="go-rom6-Hd1e89">Ad Romanos 6</head>
+        <div xml:id="go-rom6-Dd1e92">
+          <head xml:id="go-rom6-Hd1e94">Versa 23</head>
+          <p xml:id="go-rom6-d1e97">
+            <lb ed="#S"/><quote xml:id="go-rom6-Qd1e100" source="http://scta.info/resource/rom6_23" synch="1-1">Stipendia</quote> Id est 
+            <lb ed="#S"/>militiae diabolicae debi<lb ed="#S"/>tum 
+            quod redditur non donatur.
+          </p>
+          <p xml:id="go-rom6-d1e108">
+            <lb ed="#S"/><quote xml:id="go-rom6-Qd1e111" source="http://scta.info/resource/rom6_23" synch="1-1">Stipendium</quote> A 
+            <lb ed="#S"/>stipe pendenda id est sub<lb ed="#S"/>stantia 
+            ponderanda 
+            <lb ed="#S"/>antiquitus enim poti<lb ed="#S"/>us 
+            ponderabatur pecu<lb ed="#S"/>nia 
+            quam numerabatur quae 
+            <lb ed="#S"/>pro patrai militantibus 
+            <lb ed="#S"/>ex publico aerario da<lb ed="#S"/>batur. 
+            Et dicit Sti<lb ed="#S"/>pendia 
+            peccati mors ut mor<lb ed="#S"/>tem 
+            peccato non immeri<lb ed="#S"/>to 
+            illatam sed debitam 
+            <lb ed="#S"/>demonstraret posset 
+            <lb ed="#S"/>etiam dici. Stipendium 
+            <lb ed="#S"/>vitae vita aeterna Sed 
+            <lb ed="#S"/>maluit dicere gratia 
+            <lb ed="#S"/>dei vita aeterna ut in<lb ed="#S"/>telligeremus 
+            deum ad 
+            <lb ed="#S"/>aeternam vitam pro sua 
+            <lb ed="#S"/>miseratione nos perdu<lb ed="#S"/>cere non meritis un<lb ed="#S"/>de 
+            vita aeterna qua in fi<lb ed="#S"/>ne 
+            a deo meritis praece<lb ed="#S"/>dentibus 
+            redditur qua non 
+            <lb ed="#S"/>a nobis sunt sed in no<lb ed="#S"/>bis 
+            vacta sunt per grati<lb ed="#S"/>am 
+            recte et ipsa gratia 
+            <lb ed="#S"/>nuncupatur quia gra<lb ed="#S"/>tis 
+            datur. Nec ideo 
+            <lb ed="#S"/>gratis quia non meri<lb ed="#S"/>tis 
+            datur sed quia da<lb ed="#S"/>ta 
+            sunt et ipsa merita quibus datur. Confitendum est ergo ideo gratiam vitam aeter<lb ed="#S"/>nam 
+            vocari quia his meritis redditur quae gratia contulit homini. Accipimus er<lb ed="#S"/>go 
+            gratiam pro gratia scilicet gratiam glorificationis pro gratia iustificationis.
+          </p>
+          
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
