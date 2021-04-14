@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>II Thess 3 [Strasbourg 1481 Transcription]</title>
+        <author/>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>II Thess 3 [Strasbourg 1481 Transcription]</title>
+          <date when="2021-04-14">April 14, 2021</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="S" n="Strasbourg1481">Strasbourg 1481</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2021-04-14" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <div xml:id="starts-on">
+        
+      </div>
+    </front>
+    <!-- https://archive.thulb.uni-jena.de/ufb/rsc/viewer/ufb_derivate_00000066/Mon-typ-2-00011_284.tif -->
+    <body>
+      <div xml:id="go-IIth3">
+        <head xml:id="go-IIth3-Hd1e91">II Thess 3 [Strasbourg 1481 Transcription]</head>
+        <div xml:id="go-IIth3-Dd1e94">
+          <head xml:id="go-IIth3-Hd1e96">Versa 6</head>
+          <p xml:id="go-IIth3-d1e99">
+            <quote xml:id="go-IIth3-Qd1e101" type="lemma" source="http://scta.info/resource/IIth3_6" synch="1-2">Denuntiamus autem</quote>
+            <lb ed="#S"/>quae praecipimus facietis, sed qui noluerit excommunicetur
+          </p>
+          <p xml:id="go-IIth3-d1e107">
+            <cb ed="#S" n="b"/>
+            <quote xml:id="go-IIth3-Qd1e111" type="lemma" source="http://scta.info/resource/IIth3_6" synch="3-10">vobis fratres in nomine domini 
+            nostri ihesu christi,</quote>
+            <pc type="pilcrow">¶</pc> per ihesum precipimus vel honor Dei 
+            est si morbida ouis excluditur
+            <pc type="pilcrow">¶</pc> in honore Christi
+          </p>
+          <p xml:id="go-IIth3-d1e121">
+            <quote xml:id="go-IIth3-Qd1e123" type="lemma" source="http://scta.info/resource/IIth3_6" synch="11-12">ut subtrahatis</quote>
+            <pc type="pilcrow">¶</pc> non communicetis eis
+          </p>
+          <p xml:id="go-IIth3-d1e130">
+            <quote xml:id="go-IIth3-Qd1e132" type="lemma" source="http://scta.info/resource/IIth3_6" synch="13-18">vos ab omni fratre ambulante inordinate</quote>
+            <pc type="pilcrow">¶</pc> aliter quam ordo naturae exigit
+          </p>
+          <p xml:id="go-IIth3-d1e140">
+            <quote xml:id="go-IIth3-Qd1e142" type="lemma" source="http://scta.info/resource/IIth3_6" synch="19-20">et non</quote>
+            <pc type="pilcrow">¶</pc> ambulante
+          </p>
+          <p xml:id="go-IIth3-d1e149">
+            <quote xml:id="go-IIth3-Qd1e151" type="lemma" source="http://scta.info/resource/IIth3_6" synch="20-26">secundum traditionem quam acceperunt a nobis</quote>
+            <pc type="pilcrow">¶</pc> id est non secundum doctrinam quam tradidimus eis
+          </p>
+        </div>
+        <div xml:id="go-IIth3-Dd1e159">
+          <head xml:id="go-IIth3-Hd1e161">Versa 7</head>
+        </div>
+        <div xml:id="go-IIth3-Dd1e165">
+          <head xml:id="go-IIth3-Hd1e167">Versa 8</head>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
