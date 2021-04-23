@@ -62,11 +62,11 @@
           <head xml:id="go-mt24-Hd1e116">Vers 26</head><!--Math 24, 26-->
           <p xml:id="go-mt24-d1e120">
             <quote xml:id="go-mt24-Qd1e122" source="http://scta.info/resource/mt24_26" synch="1-4">Si ergo
-              dixerint vobis</quote> <pc type="pilcrow">¶</pc> quia premo<!--<lb ed="#S" break="no"/>-->niti estis
+              dixerint vobis</quote> <pc type="pilcrow">¶</pc> quia premo<lb ed="#S" break="no"/>niti estis
             </p>
             <p xml:id="go-mt24-d1e131">
               <quote xml:id="go-mt24-Qd1e133" source="http://scta.info/resource/mt24_26" synch="5-8">ecce in deserto est</quote>
-              <pc type="pilcrow">¶</pc> christus moratur in dogmate gen<!--<lb ed="#S" break="no"/>-->tilium philosophorum
+              <pc type="pilcrow">¶</pc> christus moratur in dogmate gen<lb ed="#S" break="no"/>tilium philosophorum
             </p>
             <p xml:id="go-mt24-d1e142">
               <quote xml:id="go-mt24-Qd1e144" source="http://scta.info/resource/mt24_26" synch="9-10">nolite exire</quote>
@@ -77,6 +77,22 @@
               <lb ed="#S" break="no"/>bus nolite credere</quote> <pc type="pilcrow">¶</pc> hereticorum 
               <lb ed="#S"/>qui se iactant arcana dei nosse
             </p>
+        </div>
+        <div xml:id="go-mt24-Dd1e150">
+          <head xml:id="go-mt24-Hd1e156">Vers 35</head><!--Mt 24, 35-->
+          <p xml:id="go-mt24-d1e160">
+            <quote xml:id="go-mt24-Qd1e157" source="http://scta.info/resource/mt24_35" synch="1-1">Celum </quote>
+            <lb ed="#S"/><pc type="pilcrow">¶</pc> Aerum non etherum 
+          </p>
+          <p xml:id="go-mt24-d1e162">
+            <quote xml:id="go-mt24-Qd1e168" source="http://scta.info/resource/mt24_35" synch="2-4">et terra transibunt: </quote>
+            <pc type="pilcrow">¶</pc> innovabuntur 
+          </p>
+          <p xml:id="go-mt24-d1e170">
+            <quote xml:id="go-mt24-Qd1e173" source="http://scta.info/resource/mt24_35" synch="5-9">verba autem mea non preteribunt </quote>
+            <lb ed="#S"/><pc type="pilcrow">¶</pc> sed sicut dicuntur sine ulla imminutione im
+            <lb ed="#S" break="no"/>plebuntur 
+          </p>
         </div>
       </div>
     </body>

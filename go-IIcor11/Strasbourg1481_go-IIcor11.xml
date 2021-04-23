@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>II Corinther 11 [Strasbourg 1481 Transcription]</title>
+        <author/>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>II Corinther 11 [Strasbourg 1481 Transcription]</title>
+          <date when="2021-04-22">April 22, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="S" n="Strasbourg1481">Strasbourg 1481</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2021-04-22" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <div xml:id="starts-on">
+        
+      </div>
+    </front>
+    <body>
+      <div xml:id="go-IIcor11">
+        <div xml:id="go-IIcor11-Dd1e93">
+          <head xml:id="go-IIcor11-Hd1e95">Vers 12</head><!-- II Cor 11, 12-->
+          <p xml:id="go-IIcor11-d1e96">
+            <quote xml:id="go-IIcor11-Qd1e97" source="http://scta.info/resource/IIcor11_12" synch="1-3">Quod 
+              <lb ed="#S"/>autem facio</quote>
+            <pc type="pilcrow">¶</pc><lb ed="#S"/> nunc
+          </p>
+          <p xml:id="go-IIcor11-d1e98"> 
+            <quote xml:id="go-IIcor11-Qd1e99" source="http://scta.info/resource/IIcor11_12" synch="4-5">et faciam,</quote>
+            <pc type="pilcrow">¶</pc> semper
+          </p>
+          <p xml:id="go-IIcor11-d1e100"> 
+            <quote xml:id="go-IIcor11-Qd1e101" source="http://scta.info/resource/IIcor11_12" synch="6-9">ut amputem 
+              <lb ed="#S"/>occasionem eorum</quote>
+            <pc type="pilcrow">¶</pc><lb ed="#S"/> sumendi vestra
+          </p>
+          <p xml:id="go-IIcor11-d1e102"> 
+            <quote xml:id="go-IIcor11-Qd1e105" source="http://scta.info/resource/IIcor11_12" synch="10-11">qui volunt</quote>
+            <pc type="pilcrow">¶</pc> habere
+          </p>
+          <p xml:id="go-IIcor11-d1e107"> 
+            <quote xml:id="go-IIcor11-Qd1e109"  source="http://scta.info/resource/IIcor11_12" synch="12-12">oc
+              <lb ed="#S" break="no"/>casionem</quote>
+            <pc type="pilcrow">¶</pc><lb ed="#S"/>per me <pc type="pilcrow">¶</pc>sumendi vestra
+          </p>
+          <p xml:id="go-IIcor11-d1e111"> 
+            <quote xml:id="go-IIcor11-Qd1e115"  source="http://scta.info/resource/IIcor11_12" synch="13-16">ut in quo gloriantur</quote>
+            <pc type="pilcrow">¶</pc>vel <quote source="http://scta.info/resource/IIcor11_12" synch="14-16">in quo glorian
+              <lb ed="#S" break="no"/>tur</quote> id est in non accipiendo sint sicut et nos, id est non me
+            <lb ed="#S" break="no"/>liores nobis cum vero non accipiunt nam eiusmodi
+          </p>
+          <p xml:id="go-IIcor11-d1e117"> 
+            <quote xml:id="go-IIcor11-Qd1e120"  source="http://scta.info/resource/IIcor11_12" synch="17-20">i
+              <lb ed="#S" break="no"/>nveniantur sicut et nos.</quote>
+          </p>
+          
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I Corinther 15 [Strasbourg 1481 Transcription]</title>
+        <author/>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>I Corinther 15 [Strasbourg 1481 Transcription]</title>
+          <date when="2021-04-21">April 21, 2021</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="S" n="Strasbourg1481">Strasbourg 1481</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2021-04-21" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <div xml:id="starts-on">
+        
+      </div>
+    </front>
+    <body>
+      <div xml:id="go-Icor15">
+        <div xml:id="go-Icor15-Dd1e93">
+          <head xml:id="go-Icor15-Hd1e95">Vers 33</head><!-- I Cor 15, 33-->
+          <p xml:id="go-Icor15-d1e96">
+            <quote xml:id="go-Icor15-Qd1e97" source="http://scta.info/resource/Icor15_33" synch="1-7">No
+            <lb ed="#S" break="no"/>lite seduci corrumpunt bonos mores 
+            <lb ed="#S"/>colloquia prava</quote>
+            <pc type="pilcrow">¶</pc> propter hec omnia: nolite seduci per pseudo.
+            <lb ed="#S"/>nec colloqui illis, quia colloquia illorum virtutes
+            <lb ed="#S"/>necant dum faciunt non sperare resurrectionem.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
