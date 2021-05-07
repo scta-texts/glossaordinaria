@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Rom 16 [Strasbourg 1481 Transcription]</title>
+        <author/>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Rom 16 [Strasbourg 1481 Transcription]</title>
+          <date when="2021-05-07">May 07, 2021</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="S" n="Strasbourg1481">Strasbourg 1481</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2021-05-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <div xml:id="starts-on">
+        
+      </div>
+    </front>
+    <body>
+      <div xml:id="go-rom16">
+        <head>Rom 16</head>
+        <div xml:id="go-rom16-Dd1e93">
+          <head xml:id="go-rom16-Hd1e95">Vers 17</head><!-- Rom 16, 17-->
+          <p xml:id="go-rom16-d1e96">
+            <lb ed="#S"/><quote xml:id="go-rom16-Qd1e97"  source="http://scta.info/resource/rom16_17" synch="1-4">Rogo autem 
+              <lb ed="#S"/>vos fratres</quote>
+            <pc type="pilcrow">¶</pc><lb ed="#S"/>hos salutate et imitamini sed hos 
+            <lb ed="#S"/>vitate
+          </p>
+          <p xml:id="go-rom16-d1e99"> 
+            <quote xml:id="go-rom16-Qd1e99" source="http://scta.info/resource/rom16_17" synch="5-6">ut observetis</quote>
+            <pc type="pilcrow">¶</pc> discernatis
+          </p>
+          <p xml:id="go-rom16-d1e100"> 
+            <quote xml:id="go-rom16-Qd1e101" source="http://scta.info/resource/rom16_17" synch="7-11">eos qui 
+              <lb ed="#S"/>dissensiones et offendicula</quote>
+            <pc type="pilcrow">¶</pc>qui fa
+            <lb ed="#S" break="no"/>ciunt vos dissentire et offendere invicem
+          </p>
+          <p xml:id="go-rom16-d1e102"> 
+            <quote xml:id="go-rom16-Qd1e105" source="http://scta.info/resource/rom16_17" synch="12-12">preter</quote>
+            <pc type="pilcrow">¶</pc><lb ed="#S"/>entes <!-- preter<entes>-->
+          </p>
+          <p xml:id="go-rom16-d1e107"> 
+            <lb ed="#S"/><quote xml:id="go-rom16-Qd1e109"  source="http://scta.info/resource/rom16_17" synch="13-13">doctrinam</quote>
+            <pc type="pilcrow">¶</pc>quia 
+            <lb ed="#S"/>de lege ardebant et cogebant credentes iudaizare
+          </p>
+          <p xml:id="go-rom16-d1e111"> 
+            <quote xml:id="go-rom16-Qd1e115"  source="http://scta.info/resource/rom16_17" synch="14-16">quam vos didicistis</quote>
+            <pc type="pilcrow">¶</pc><lb ed="#S"/>a veris
+          </p>
+          <p xml:id="go-rom16-d1e117"> 
+            <quote xml:id="go-rom16-Qd1e120" source="http://scta.info/resource/rom16_17" synch="17-21">faciunt 
+              <lb ed="#S"/>et declinate ab illis</quote>
+            <pc type="pilcrow">¶</pc><lb ed="#S"/>et debetis declinare
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
+
+<!-- https://gloss-e.irht.cnrs.fr/php/editions_chapitre.php?livre=../sources/editions/GLOSS-liber60.xml&chapitre=60_16 -->
+<!-- https://dhb.thulb.uni-jena.de/rsc/viewer/ufb_derivate_00000066/Mon-typ-2-00011_311.tif?logicalDiv=log_d4c6c7-9b93-84d2-3936f91bf -->
+<!-- unten rechts -->
+<!-- Wilhelm zitiert interlinearis -->
+<!-- siehe in d1e110 xml:id="bcg6es-d1e110-Rd1e534" -->

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title> Sirach 33 [Strasbourg 1481 Transcription]</title>
+        <author/>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title> Sirach 33 [Strasbourg 1481 Transcription]</title>
+          <date when="2021-05-07">May 07, 2021</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="S" n="Strasbourg1481">Strasbourg 1481</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2021-05-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <div xml:id="starts-on">
+        
+      </div>
+    </front>
+    <body>
+      <div xml:id="go-sir33">
+        <head>Sirach 33 [Strasbourg 1481 Transcription]</head>
+        <div xml:id="go-sir33-Dd1e93">
+          <head xml:id="go-sir33-Hd1e95">Vers 18</head><!-- Sir 33, 18-->
+          <p xml:id="go-sir33-d1e96">
+            <quote xml:id="go-sir33-Qd1e97" source="http://scta.info/resource/sir33_18" synch="1-6">Respi
+              <lb ed="#S"/>cite quoniam non soli mihi laboravi</quote> 
+            <pc type="pilcrow">¶</pc><lb ed="#S"/> querendo medi
+            <lb ed="#S"/>tando lucem sapientie
+          </p>
+          <p xml:id="go-sir33-d1e98"> 
+            <quote xml:id="go-sir33-Qd1e99" source="http://scta.info/resource/sir33_18" synch="7-10">sed om
+              <lb ed="#S"/>nibus exquirentibus disciplinam</quote>
+          </p>
+        </div>
+        <div xml:id="go-sir33-Dd1e105">
+          <head xml:id="go-sir33-Hd1e108">Vers 19</head><!-- Sir 33, 19-->
+          <p xml:id="go-sir33-d1e110">
+            <quote xml:id="go-sir33-Qd1e111" source="http://scta.info/resource/sir33_19" synch="1-6">Audi
+              <lb ed="#S" break="no"/>te me magnati et omnes populi </quote> 
+            <pc type="pilcrow">¶</pc>quibus correptionem 
+            <lb ed="#S"/>vite et modestiam dicipline exhibui 
+          </p>
+          <p xml:id="go-sir33-d1e115">
+            <quote xml:id="go-sir33-Qd1e115" source="http://scta.info/resource/sir33_19" synch="7-11">et re¬
+              <lb ed="#S" break="no"/>ctores Ecclesie auribus percipite</quote>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
+
+<!-- https://gloss-e.irht.cnrs.fr/php/editions_chapitre.php?livre=../sources/editions/GLOSS-liber32.xml&chapitre=32_33#32_bible45787 -->
+<!-- https://dhb.thulb.uni-jena.de/rsc/viewer/ufb_derivate_00000063/Inc_83_3_00130.tif?logicalDiv=log_9fecc1-9efb-f423-7c13155ed -->
+<!-- marginalis rechts mitte -->
+<!-- -->
+<!-- d1e110 xml:id="bcg6es-d1e110-Rd1e1207-->
