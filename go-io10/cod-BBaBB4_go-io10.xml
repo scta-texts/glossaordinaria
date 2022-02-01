@@ -2,13 +2,13 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>I Corinther 15 [Strasbourg 1481 Transcription]</title>
+        <title>Iohannes 10 [Strasbourg 1481 Transcription]</title>
         <author/>
       </titleStmt>
       <editionStmt>
         <edition n="0.0.0-dev">
-          <title>I Corinther 15 [Strasbourg 1481 Transcription]</title>
-          <date when="2021-04-21">April 21, 2021</date>
+          <title>Iohannes 10 [Strasbourg 1481 Transcription]</title>
+          <date when="2021-05-07">May 07, 2021</date>
         </edition>
       </editionStmt>
       <publicationStmt>
@@ -19,7 +19,7 @@
       </publicationStmt>
       <sourceDesc>
         <listWit>
-          <witness xml:id="S" n="Strasbourg1481">Strasbourg 1481</witness>
+          <witness xml:id="S" n="cod-BBaBB4">Strasbourg 1481, v. 4</witness>
         </listWit>
       </sourceDesc>
     </fileDesc>
@@ -33,7 +33,7 @@
     </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2021-04-21" status="draft" n="0.0.0">
+        <change when="2021-05-07" status="draft" n="0.0.0">
           <p>Created file for the first time.</p>  
         </change>
       </listChange>
@@ -46,19 +46,28 @@
       </div>
     </front>
     <body>
-      <div xml:id="go-Icor15">
-        <div xml:id="go-Icor15-Dd1e93">
-          <head xml:id="go-Icor15-Hd1e95">Vers 33</head><!-- I Cor 15, 33-->
-          <p xml:id="go-Icor15-d1e96">
-            <quote xml:id="go-Icor15-Qd1e97" source="http://scta.info/resource/Icor15_33" synch="1-7">No
-            <lb ed="#S" break="no"/>lite seduci corrumpunt bonos mores 
-            <lb ed="#S"/>colloquia prava</quote>
-            <pc type="pilcrow">¶</pc> propter hec omnia: nolite seduci per pseudo.
-            <lb ed="#S"/>nec colloqui illis, quia colloquia illorum virtutes
-            <lb ed="#S"/>necant dum faciunt non sperare resurrectionem.
+      <div xml:id="go-io10">
+        <head>Iohannes 10 [Strasbourg 1481 Transcription]</head>
+        <div xml:id="go-io10-Dd1e93">
+          <head xml:id="go-io10-Hd1e95">Vers 35</head><!-- Io 10, 35-->
+          <p xml:id="go-io10-d1e96">
+            <lb ed="#S"/><quote xml:id="go-io10-Qd1e97" source="http://scta.info/resource/io10_35" synch="1-14">Si illos dixit deos ad quos sermo 
+              <lb ed="#S"/>Dei factus est et non potest solvi </quote>
+            <pc type="pilcrow">¶</pc><lb ed="#S"/> falsitatis argui 
+          </p>
+          <p xml:id="go-io10-d1e98"> 
+            <quote xml:id="go-sir33-Qd1e99" source="http://scta.info/resource/io10_35" synch="15-15">Scri
+              <lb ed="#S" break="no"/>ptura</quote>
+            <pc type="pilcrow">¶</pc> David
           </p>
         </div>
       </div>
     </body>
   </text>
 </TEI>
+
+<!-- https://gloss-e.irht.cnrs.fr/php/editions_chapitre.php?livre=../sources/editions/GLOSS-liber58.xml&chapitre=58_10 -->
+<!-- https://dhb.thulb.uni-jena.de/rsc/viewer/ufb_derivate_00000066/Mon-typ-2-00011_256.tif?logicalDiv=log_bd88ee-83a4-96d3-578819259 -->
+<!--  -->
+<!-- -->
+<!-- d1e110 xml:id="bcg6es-d1e110-Qd1e1270"-->
