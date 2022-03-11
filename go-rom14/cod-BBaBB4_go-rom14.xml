@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Rom 14 [Strasbourg 1481 Transcription]</title>
+        <author/>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Rom 14 [Strasbourg 1481 Transcription]</title>
+          <date when="2022-03-11">March 11, 2022</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="S" n="cod-BBaBB4">Strassburg 1481, v. 4</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2022-03-11" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <div xml:id="starts-on">
+        
+      </div>
+    </front>
+    <body>
+      <div xml:id="go-rom14">
+        <head xml:id="go-rom14-Hd1e84">Rom 14 [Strasbourg 1481 Transcription]</head>
+        <div xml:id="go-rom14-Dd1e86">
+          <head xml:id="go-rom14-Hd1e88">Versa 23</head>
+          <p xml:id="go-rom14-d1e90">
+            <lb ed="#S"/><ref xml:id="go-rom14-Rd1e93" target="http://scta.info/resource/rom14_23@1-1"><pc>|</pc><!-- cross metamark before "qui" --></ref> ille beatus sed qui
+          </p>
+          <p xml:id="go-rom14-d1e98">
+            <ref xml:id="go-rom14-Rd1e100" target="http://scta.info/resource/rom14_23@3-3"><pc>|</pc><!-- up arrow metamark before discernit--></ref> cibos alios mundos alios im<lb ed="#S" break="no"/>mundos
+          </p>
+          <p xml:id="go-rom14-d1e107">
+            <ref xml:id="go-rom14-Rd1e109" target="http://scta.info/resource/rom14_23@5-5"><pc>|</pc><!-- three dot arrow arrow metamark before "manducaverit" --></ref> et cum illa conscientia
+          </p>
+          <p xml:id="go-rom14-d1e114">
+            <lb ed="#S"/><ref xml:id="go-rom14-Rd1e117" target="http://scta.info/resource/rom14_23@6-11"><pc type="pilcrow"/><!-- pilcrow: pilgrow seems to go with the whole line: damnatus...fide? --></ref> manducavit
+          </p>
+          <p xml:id="go-rom14-d1e123">
+            <lb ed="#S"/><ref xml:id="go-rom14-Rd1e126" target="http://scta.info/resource/rom14_23@6-11">| <!-- cross meta mark before "omne"--></ref> bonum etiam
+          </p>
+          <p xml:id="go-rom14-d1e131">
+            <ref xml:id="go-rom14-Rd1e133" target="http://scta.info/resource/rom14_23@14-14">| <!-- up arrow meta mark before "quod"--></ref> quod sit contra fidem id est contra conscientiam ut 
+            <lb ed="#S"/>credatur malum esse
+          </p>
+          
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
