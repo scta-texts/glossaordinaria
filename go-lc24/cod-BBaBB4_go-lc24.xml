@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title> Lucas 24 [Strasbourg 1481 Transcription]</title>
+        <author/>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title> Lucas 24 [Strasbourg 1481 Transcription]</title>
+          <date when="2024-10-15">October 15, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="S" n="cod-BBaBB4">Strasbourg 1481, v. 4</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-10-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <div xml:id="starts-on">
+        
+      </div>
+    </front>
+    <body>
+      <div xml:id="go-lc24">
+        <head xml:id="go-lc24-Hd1e84">Lucas 24 [Strasbourg 1481 Transcription]</head>
+        <div xml:id="go-lc24-Dd1e86">
+          <head xml:id="go-lc24-Hd1e88">Vers 47</head><!-- Luc 24, 47-->
+          <p xml:id="go-lc24-d1e91">
+            <ref xml:id="go-lc24-Rd1e93" source="http://scta.info/resource/lc24_47@10-12">/ <pc type="pilcrow"/></ref> non in una tantum gente iudaeorum <pc type="punctus"/> vel in aliqua
+            <lb ed="#S"/>parte terrarum.
+          </p>
+          
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI><!-- https://gloss-e.irht.cnrs.fr/php/editions_chapitre.php?livre=../sources/editions/GLOSS-liber57.xml&chapitre=57_20 --><!-- https://dhb.thulb.uni-jena.de/rsc/viewer/ufb_derivate_00000066/Mon-typ-2-00011_216.tif?logicalDiv=log_5c3e84-ec12-636a-a27df2249 --><!-- marginalis links oben  --><!-- Wilhelm zitiert interlinearis und noch etwas dazu--><!-- siehe in d1e110  xml:id="bcg6es-d1e110-Rd1e664"-->
